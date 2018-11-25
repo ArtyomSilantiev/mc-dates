@@ -1,0 +1,28 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 20px auto;
+  padding: 0;
+  max-width: 410px;
+}
+
+.start-app-state {
+  text-align: center;
+}
+
+.mc-dates-comp {
+  border: solid 2px black;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+.inputs-cont {
+  margin-top: 30px;
+}
+
+.set-dates-btn {
+  cursor: pointer;
+  font-size: 12px;
+}
+

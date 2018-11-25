@@ -1,0 +1,14 @@
+<div class="mc-dates-comp">
+  <h2>Компонент дат</h2>
+  <div>
+    <md-datepicker ng-model="vm.modelDateFrom" md-placeholder="C ..." ng-change="vm.setDateFrom(vm.modelDateFrom, true)"></md-datepicker>
+    <md-datepicker ng-model="vm.modelDateTo" md-placeholder="По ..." ng-change="vm.setDateTo(vm.modelDateTo, true)"></md-datepicker>
+  </div>
+  <div>
+    <span class="set-dates-btn" ng-click="vm.setYesterday()">Вчера</span>
+    <span class="set-dates-btn" ng-click="vm.setToday()">Сегодня</span>
+    <span class="set-dates-btn" ng-click="vm.setTwoWeeks()">2 Недели</span>
+    <span class="set-dates-btn" ng-click="vm.setMonth()">Месяц</span>
+    <span class="set-dates-btn" ng-click="vm.setAll()">Все</span>
+  </div>
+</div>
